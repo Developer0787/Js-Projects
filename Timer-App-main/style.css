@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center bottom;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)), url('./BoqTgvhD-2018_Fasting_base.jpg');
+}
+
+h1{
+    font-size: 64px;
+    font-weight: normal;
+    margin-top: 5rem;
+}
+
+.countdown-container{
+    display: flex;
+    margin-top: 10px;
+}
+
+input{
+    margin: 20px 0;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+
+.item {
+    text-align: center;
+}
+
+.item span{
+    font-size: 24px;
+}
+
+

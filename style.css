@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #74035a;
+}
+ul{
+    margin: 0;
+    list-style: decimal;
+    padding: 0;
+    color: #fff;
+}
+ul li{
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
