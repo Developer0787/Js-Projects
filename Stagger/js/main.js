@@ -7,7 +7,7 @@ gsap.to('.selector', {
         start: 'top 90%',
         end: 'top 10%',
         // scrub: 1,
-        markers: true
+        // markers: true
     },
     stagger: {
         each: .2,

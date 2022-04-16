@@ -127,7 +127,6 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .setTween(timeline)
     .setPin('.image-wrapper')
-    .addIndicators()
     .addTo(controller);
 })
 
